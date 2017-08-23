@@ -1,0 +1,44 @@
+html,
+body {
+	height: 100%;
+  margin: 0;
+}
+
+body {
+	color: #2f2f2f;
+  font-family: 'Raleway', sans-serif;
+  background: #abbaab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #f4f4f4, #abbaab);
+  background: -o-linear-gradient(right, #f4f4f4, #abbaab);
+  background: linear-gradient(to left, #f4f4f4, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+	font-size: 3.2em;
+}
+
+#welcomeTitle {
+	/*position: absolute;*/
+	/*margin-top: 120px;*/
+	padding-top: 120px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#welcomeMessage {
+	text-align: center;
+}
+
+.container-fluid {
+	padding-right: 0px;
+	padding-left: 0px;
+	min-height: 100%;
+}
+
+.banner {
+	/*height: 100%;*/
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	/*box-shadow: 0px 1px 20px 1px #ddd;*/
+}
