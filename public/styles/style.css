@@ -4,22 +4,45 @@ body {
   margin: 0;
 }
 
-body {
-	color: #2f2f2f;
-  font-family: 'Raleway', sans-serif;
-  background: #abbaab;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(right, #f4f4f4, #abbaab);
-  background: -o-linear-gradient(right, #f4f4f4, #abbaab);
-  background: linear-gradient(to left, #f4f4f4, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+h1,
+h3,
+p {
+	font-family: 'Raleway', sans-serif;
 }
 
 h1 {
-	font-size: 3.2em;
+	font-size: 3.8em;
+	font-weight: 100;
+}
+
+p {
+	font-size: 1.5em;
+	font-weight: 100;
+}
+
+#about > div > p {
+	color: #2980b9;
+	font-weight: 300;
+}
+
+#about > div {
+	padding-top: 40px;
+}
+
+#about > div > a {
+	font-size: 3.5em;
+}
+
+#brand {
+  background: #34495e;
+  color: #dce0e1;
+}
+
+#frontDoor {
+	text-align: center;
 }
 
 #welcomeTitle {
-	/*position: absolute;*/
-	/*margin-top: 120px;*/
 	padding-top: 120px;
 	padding-bottom: 20px;
 	text-align: center;
@@ -27,18 +50,15 @@ h1 {
 
 #welcomeMessage {
 	text-align: center;
+	padding-bottom: 70px;
+	letter-spacing: 1.5px;
 }
 
-.container-fluid {
-	padding-right: 0px;
-	padding-left: 0px;
-	min-height: 100%;
+#about {
+	background-color: #cdd3d7;
+	height: 500px;
 }
 
-.banner {
-	/*height: 100%;*/
-	width: 100%;
-	margin-left: 0px;
-	margin-right: 0px;
-	/*box-shadow: 0px 1px 20px 1px #ddd;*/
+.navbar {
+	background-color: #a3a3a3;
 }
