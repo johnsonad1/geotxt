@@ -3,10 +3,34 @@ GeoTXT
 ------------------------
 ------------------------
 
+Ongoing questions:
+
+	1. How will the client enter phone numbers into the database?
+
+------------------------
+------------------------
+
 What is the target platform? e.g. computer application, web application, mobile, etc.?
 
 ------------------------
 ------------------------
 
 SMS APIs are never available as a free service. Using this app will require the client to pay for the messages being sent. 
+
+------------------------
+------------------------
+
+This app needs to:
+
+	1. Store phone numbers in a database exclusively for any particular client.
+
+	2. Filter through a phone number database to select by region using the area code, then send a custom sms message to only those numbers.
+
+	3. Have the ability to save a clients database of phone numbers in a private account.
+
+	4. Accept payment from clients
+
+	5. Have password and usernames for clients
+
+	6. Have an attractive UI for an optimized user experience. 
 
