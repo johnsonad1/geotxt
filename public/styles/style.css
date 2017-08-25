@@ -20,26 +20,35 @@ p {
 	font-weight: 100;
 }
 
-#about > div > p {
-	color: #2980b9;
-	font-weight: 300;
+#about {
+	/*background-color: rgba(52, 73, 94, 1.0);*/
+	background-color: rgba(219, 215, 213,1.0);
+	height: 500px;
 }
 
 #about > div {
 	padding-top: 40px;
 }
 
+#about > div > p {
+	color: rgba(236, 240, 241,1.0);
+	font-weight: 100;
+}
+
 #about > div > a {
 	font-size: 3.5em;
 }
 
-#brand {
-  background: #34495e;
-  color: #dce0e1;
-}
-
 #frontDoor {
 	text-align: center;
+}
+
+/* Uppermost div on landing page */
+
+#brand {
+  background: linear-gradient(90deg, rgb(84, 106, 125), rgb(37, 54, 72));
+  /*background: rgba(52, 73, 94, 1.0);*/
+  color: rgba(236, 240, 241,1.0);
 }
 
 #welcomeTitle {
@@ -54,11 +63,17 @@ p {
 	letter-spacing: 1.5px;
 }
 
-#about {
-	background-color: #cdd3d7;
-	height: 500px;
+/* Navigation div on landing page */
+
+#navigation {
+	background-color: rgba(219, 215, 213,1.0);
+	text-align: center;
+	padding-top: 85px;
 }
 
-.navbar {
-	background-color: #a3a3a3;
+#navigation > div > a {
+	font-size: 3.5em;
+	font-weight: 100;
+	letter-spacing: 7px;
+	color: rgba(69, 90, 100,1.0)
 }
